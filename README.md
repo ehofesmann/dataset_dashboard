@@ -2,7 +2,7 @@
 
 Example dashboard of dataset metrics visualized in a FiftyOne App panel.
 
-This is a very specific example showing how you can build a custom panel for plotly plots for your own custom workflows and is not meant directly for production workflows.
+This is a very specific example showing how you can build a panel for plotly plots for your own custom workflows and is not meant to be used directly for production workflows.
 In this case, the plots expect specific fields to exist on your dataset (like `date_added` and `ground_truth.detections.failures`).
 
 ![image](https://github.com/ehofesmann/dataset_dashboard/assets/21222883/984bb213-5877-4ab0-a542-45fb676710c1)
