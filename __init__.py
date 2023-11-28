@@ -38,7 +38,7 @@ class OpenPlotlyPanel(foo.Operator):
             if ctx.dataset.name != "quickstart":
                 return None
 
-        if ctx.dataset.name != "Dataset Dashboard":
+        if ctx.dataset.name != "Dashboard Example":
             return None
 
         try:
@@ -79,7 +79,7 @@ class RefreshDashboard(foo.Operator):
         )
 
     def resolve_placement(self, ctx):
-        if ctx.dataset.name != "Dataset Dashboard":
+        if ctx.dataset.name != "Dashboard Example":
             return None
 
         return types.Placement(
@@ -114,7 +114,7 @@ class AutosyncDashboard(foo.Operator):
         )
 
     def resolve_placement(self, ctx):
-        if ctx.dataset.name != "Dataset Dashboard":
+        if ctx.dataset.name != "Dashboard Example":
             return None
 
         return types.Placement(
