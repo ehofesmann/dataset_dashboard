@@ -1,0 +1,11 @@
+name: "@ehofesmann/dataset_dashboard"
+description: Dashboard for dataset metrics
+version: 1.0.0
+fiftyone:
+  version: "*"
+license: Apache 2.0
+operators:
+  - open_plotly_panel
+  - get_plotly_plots
+  - refresh_dashboard
+  - autosync_dashboard
