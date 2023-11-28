@@ -51,9 +51,9 @@ On the `Dashboard Example` dataset, you can open the panel by clicking the `Dash
 
 ![image](https://github.com/ehofesmann/dataset_dashboard/assets/21222883/21579ae3-9ef4-4295-9205-09f4b5c3624e)
 
-All of the data to generate the plots is stored on the `dataset.info` of your dataset so it can load in constant time.
+All of the data to generate the plots is stored on the `dataset.info` of your dataset so it can load the plots in constant time, no matter the size of your dataset.
 
-As you filter your dataset and look at different views, you can recompute the plot data stored in `dataset.info` and refresh the plots with the refresh button:
+As you filter your dataset and look at different views, you can recompute the plot data stored in `dataset.info` and refresh the plots with the refresh button. This operation can be expensive for larger datasets:
 
 ![image](https://github.com/ehofesmann/dataset_dashboard/assets/21222883/4cd18b35-2288-42da-a4fa-4d9517c0cdca)
 
